@@ -1,5 +1,5 @@
 # Recushot
-Create recursive screenshots of local HTML files using [Puppeteer](https://github.com/puppeteer/puppeteer) and [Glob](https://github.com/isaacs/node-glob).
+CLI tool. Create recursive screenshots of local HTML files using [Puppeteer](https://github.com/puppeteer/puppeteer) and [Glob](https://github.com/isaacs/node-glob).
 
 ## How does it work
 Suppose we have the following hierarchy of files and we would like to screenshot a specific element in each of them.
