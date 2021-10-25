@@ -1,0 +1,20 @@
+{
+  "name": "recushot",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "puppeteer": "^10.4.0"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/puppeteer": "^5.4.4",
+    "commander": "^8.3.0",
+    "tsup": "^5.5.0",
+    "typescript": "^4.4.4"
+  }
+}
