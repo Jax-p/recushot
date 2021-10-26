@@ -1,5 +1,6 @@
-const { program } = require('commander');
-const pkg = require('./../package.json');
+#! /usr/bin/env node
+import { program } from 'commander';
+import * as pkg from './../package.json';
 import Screenshotter from "./Screenshotter";
 
 program
